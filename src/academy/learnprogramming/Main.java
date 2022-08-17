@@ -19,12 +19,15 @@ public class Main {
         float myFloatValue = 5f / 3f;
         double myDoubleValue = 5d/ 3d;
 
-        //double is much more precise than float.  double will go out 16 places.  float only 8 places.
+        //double is much more precise than float.  double will go out 16 places.  float only 8 places. double is faster to process on most modern computers. java libraries are written to return doubles not floats
 
     System.out.println("MyIntValue = " + myIntValue);
     System.out.println("MyFloatValue = " + myFloatValue);
     System.out.println("MyDoubleValue = " + myDoubleValue);
 
+  double pounds = 217;
+  double poundsToKilograms = pounds * 0.45359237;
+  System.out.println("217 pounds is " + poundsToKilograms + " kilograms");
 
 
     }
